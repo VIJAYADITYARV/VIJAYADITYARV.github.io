@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Aditya R V | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="scroll-progress"></div>
+
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">VA</div>
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#contact" class="cta-link">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="toggle-slider">🌙</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- HERO -->
+            <section id="hero" class="hero-section">
+                <div id="hero-particles"></div>
+
+                <div class="hero-text reveal">
+                    <h1>Vijay Aditya R V</h1>
+
+                    <h2 class="professional-title">
+                        <span class="gradient-text">AI/ML • Data • Cloud Engineer</span>
+                    </h2>
+                    
+                    <p class="bio-summary">
+                        Cloud, Data, and Systems-focused Computer Science undergraduate with strong experience
+                        in full-stack web development. I build scalable applications, data-driven platforms,
+                        and intelligent systems using modern MERN technologies, cloud services, and
+                        algorithmic problem-solving principles.
+                    </p>
+
+                    <div class="hero-social-links">
+                        <div class="magnetic-zone">
+                            <a href="https://github.com/VIJAYADITYARV" target="_blank" class="magnetic">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        <div class="magnetic-zone">
+                            <a href="https://in.linkedin.com/in/vijay-aditya-r-v" target="_blank" class="magnetic">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                        <div class="magnetic-zone">
+                            <a href="https://drive.google.com/file/d/1psRnezARcynav-tT-mXkNaRBN_8jjrmR/view?usp=sharing" target="_blank" class="magnetic">
+                                <i class="fas fa-file-pdf"></i> Resume
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-small">
+                        <p>
+                            <i class="fas fa-envelope" style="color: var(--color-accent);"></i>
+                            <a href="mailto:VIJAYADITYARV@gmail.com">vijayadityarv@gmail.com</a>
+                        </p> 
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: var(--color-accent);"></i>
+                            Coimbatore, India • 
+                            <span style="color: var(--color-accent); font-weight: 700;">
+                                Open to internships & roles
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper reveal">
+                    <div class="image-card">
+                        <img src="profile.jpg" alt="Vijay Aditya R V">
+                    </div>
+                    <span class="online-status">Available</span>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- ABOUT -->
+            <section id="about" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">About Me</h3>
+                    <p class="section-subheading reveal">
+                        A brief look into my journey and interests
+                    </p>
+                </div>
+                
+                <div class="about-content reveal">
+                    <p>
+                        I am a Computer Science engineering student with a strong interest in building
+                        scalable, real-world software systems. My work spans full-stack web development,
+                        cloud computing, data analytics, and systems-level problem solving.
+                    </p>
+
+                    <p>
+                        <strong>My stack</strong> primarily includes the MERN ecosystem for modern web
+                        applications, Python for data and machine learning workflows, and cloud platforms
+                        for deployment and scalability. I value clean architecture, maintainable code,
+                        and performance-aware design.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item reveal">
+                        <span class="icon">🚀</span>
+                        <span class="number">10+</span>
+                        <span class="label">Academic & Personal Projects</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">💼</span>
+                        <span class="number">2+</span>
+                        <span class="label">Years of Hands-on Learning</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">⭐</span>
+                        <span class="number">2</span>
+                        <span class="label">Industry Certifications</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">💯</span>
+                        <span class="number">100%</span>
+                        <span class="label">Curiosity & Commitment</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal" style="margin-top: 50px;">
+                    <h4>Areas of Interest</h4>
+                </div>
+
+                <div class="interest-tags reveal">
+                    <div class="interest-tag">
+                        <i class="fas fa-network-wired"></i>
+                        Distributed Systems & Cloud Architecture
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-cloud"></i>
+                        Cloud-Native Application Development
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-brain"></i>
+                        AI & Machine Learning Integration
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-building"></i>
+                        System Design & Algorithmic Problem Solving
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- TECH STACK -->
+            <section id="tech-stack" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Tech Stack</h3>
+                    <p class="section-subheading reveal">
+                        Technologies I actively use and build with
+                    </p>
+                </div>
+                <div class="tech-stack-grid" id="techStackGrid"></div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- SKILLS -->
+            <section id="skills" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Technical Skills</h3>
+                    <p class="section-subheading reveal">
+                        Core technical areas I actively work across
+                    </p>
+                </div>
+                <div class="skills-categories" id="skillsContainer"></div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- LEARNING -->
+            <section id="learning" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Currently Learning</h3>
+                    <p class="section-subheading reveal">
+                        Continuously strengthening my technical foundation
+                    </p>
+                </div>
+                <div class="learning-grid" id="learningGrid"></div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- EDUCATION -->
+            <section id="education" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Education</h3>
+                    <p class="section-subheading reveal">
+                        Academic background and technical foundation
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="education-card">
+                            <h4 class="degree-title">B.Tech in Computer Science and Engineering</h4>
+                            <p class="institution-info">
+                                Amrita Vishwa Vidyapeetham, Coimbatore • CGPA: 8.23 / 10
+                            </p>
+                            <p class="institution-info">2023 – Present</p>
+
+                            <p style="margin-top: 20px; font-weight: 600; color: var(--color-text);">
+                                Relevant Coursework
+                            </p>
+                            <ul class="coursework-list">
+                                <li>Data Structures & Algorithms</li>
+                                <li>Database Management Systems</li>
+                                <li>Operating Systems</li>
+                                <li>Web Technology</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="education-card">
+                            <h4 class="degree-title">B.S. in Data Science and Applications</h4>
+                            <p class="institution-info">
+                                Indian Institute of Technology Madras • Foundation Completed with Distinction
+                            </p>
+                            <p class="institution-info">2023 – Present</p>
+
+                            <p style="margin-top: 20px; font-weight: 600; color: var(--color-text);">
+                                Coursework Highlights
+                            </p>
+                            <ul class="coursework-list">
+                                <li>Statistics & Probability</li>
+                                <li>Python Programming</li>
+                                <li>SQL & Database Systems</li>
+                                <li>Data Visualization & Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- CERTIFICATIONS -->
+            <section id="experience" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Certifications</h3>
+                    <p class="section-subheading reveal">
+                        Industry-recognized credentials
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="experience-card">
+                            <h4 class="job-title">AWS Certified Cloud Practitioner (CLF-C02)</h4>
+                            <p class="company-info">Amazon Web Services • June 2025</p>
+                            <ul class="responsibilities-list">
+                                <li>
+                                    Demonstrated foundational knowledge of AWS global infrastructure,
+                                    IAM, EC2, S3, pricing models, and the shared responsibility model.
+                                </li>
+                            </ul>
+                            <a href="https://www.credly.com/badges/0916c73d-2c1d-42ac-914f-62a690232ff2/public_url"
+                               target="_blank" class="cert-badge-link">
+                                <i class="fas fa-award"></i> View Certification Badge
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="experience-card">
+                            <h4 class="job-title">AWS Certified AI Practitioner (AIF-C01)</h4>
+                            <p class="company-info">Amazon Web Services • June 2025</p>
+                            <ul class="responsibilities-list">
+                                <li>
+                                    Validated understanding of machine learning concepts, generative AI,
+                                    foundation models, and AWS AI services including SageMaker and Bedrock.
+                                </li>
+                            </ul>
+                            <a href="https://www.credly.com/badges/4b7af6f2-8497-42bf-abd3-86af5c86c840/public_url"
+                               target="_blank" class="cert-badge-link">
+                                <i class="fas fa-award"></i> View Certification Badge
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- PROJECTS -->
+            <section id="projects" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Featured Projects</h3>
+                    <p class="section-subheading reveal">
+                        Selected projects showcasing my technical work
+                    </p>
+                </div>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- GITHUB -->
+            <section id="github-activity" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">GitHub Activity</h3>
+                    <p class="section-subheading reveal">
+                        A snapshot of my coding activity and open-source work
+                    </p>
+                </div>
+
+                <div class="github-widget reveal">
+                    <div class="github-stats">
+                        <div class="github-stat">
+                            <span class="github-stat-value">150+</span>
+                            <span class="github-stat-label">Contributions</span>
+                        </div>
+                        <div class="github-stat">
+                            <span class="github-stat-value">12</span>
+                            <span class="github-stat-label">Repositories</span>
+                        </div>
+                        <div class="github-stat">
+                            <span class="github-stat-value">8+</span>
+                            <span class="github-stat-label">Projects</span>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 30px;">
+                        <a href="https://github.com/VIJAYADITYARV" target="_blank"
+                           style="color: var(--color-accent); text-decoration: none; font-weight: 700;">
+                            View GitHub Profile →
+                        </a>
+                    </p>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- TESTIMONIALS -->
+            <section id="testimonials" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Testimonials</h3>
+                    <p class="section-subheading reveal">
+                        Feedback from mentors and collaborators
+                    </p>
+                </div>
+                <div class="testimonials-grid" id="testimonialsGrid"></div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- CONTACT -->
+            <section id="contact" class="section contact-section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Get In Touch</h3>
+                    <p class="section-subheading reveal">
+                        Open to internships, roles, and collaborations
+                    </p>
+                </div>
+
+                <div class="contact-container reveal">
+                    <div class="contact-info-left">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            I'm always open to discussing internships, entry-level roles,
+                            academic collaborations, or innovative project ideas.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Email</span>
+                                    <span class="value">
+                                        <a href="mailto:VIJAYADITYARV@gmail.com">vijayadityarv@gmail.com</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Location</span>
+                                    <span class="value">Coimbatore, India</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Status</span>
+                                    <span class="value" style="color: var(--color-accent);">
+                                        Open to Opportunities
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-contact">
+                            <a href="https://github.com/VIJAYADITYARV" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://in.linkedin.com/in/vijay-aditya-r-v" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" required placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Vijay Aditya R V. Designed & built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop">↑</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
